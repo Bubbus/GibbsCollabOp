@@ -31,7 +31,7 @@ COPY_ADDONS(LOL(ftl),LOL(rif));
 
 // Medic Loadout
 
-_baseLoadout = [["hlc_rifle_bcmjack","","","",["hlc_30rnd_556x45_M_PMAG",30],[],""],[],[],["SOUP_CombatUniform_G3_PMC_GREY_BLU_A",[["ACRE_PRC343",1],["ACRE_PRC152",1],["ACE_elasticBandage",4],["ACE_morphine",1],["ACE_splint",2],["ACE_tourniquet",2],["hlc_30rnd_556x45_M_PMAG",5,30]]],["V_Chestrig_blk",[]],["UK3CB_TKP_O_B_ASS_MED_BLK",[["ACE_bloodIV",3],["ACE_elasticBandage",10],["ACE_epinephrine",3],["ACE_morphine",5],["ACE_splint",5]]],"H_Cap_blk","",[],["ItemMap","","","ItemCompass","ItemWatch",""]];
+_baseLoadout = [["hlc_rifle_bcmjack","","","optic_Holosight_blk_F",["hlc_30rnd_556x45_M_PMAG",30],[],""],[],[],["SOUP_CombatUniform_G3_PMC_GREY_BLU_A",[["ACRE_PRC343",1],["ACRE_PRC152",1],["ACE_elasticBandage",4],["ACE_morphine",1],["ACE_splint",2],["ACE_tourniquet",2],["hlc_30rnd_556x45_M_PMAG",5,30]]],["V_Chestrig_blk",[]],["UK3CB_TKP_O_B_ASS_MED_BLK",[["ACE_bloodIV",3],["ACE_elasticBandage",10],["ACE_epinephrine",3],["ACE_morphine",5],["ACE_splint",5]]],"H_Cap_blk","",[],["ItemMap","","","ItemCompass","ItemWatch",""]];
 
 CREATE_LOADOUT(LOL(med),_baseLoadout);
 COPY_ADDONS(LOL(med),LOL(rif));
@@ -39,7 +39,7 @@ COPY_ADDONS(LOL(med),LOL(rif));
 
 // Autorifleman Loadout
 
-_baseLoadout =[["rhs_weap_m249_pip_L_para","","","",["rhsusf_100Rnd_556x45_M855_mixed_soft_pouch",100],[],"rhsusf_acc_saw_bipod"],[],[],["SOUP_CombatUniform_G3_PMC_GREY_BLU_A",[["ACRE_PRC343",1],["ACRE_PRC152",1],["ACE_elasticBandage",4],["ACE_morphine",1],["ACE_splint",2],["ACE_tourniquet",2]]],["V_Chestrig_blk",[["rhsusf_100Rnd_556x45_M855_mixed_soft_pouch_coyote",2,100]]],["UK3CB_TKP_O_B_ASS_BLK",[]],"H_Cap_tan","",[],["ItemMap","","","ItemCompass","ItemWatch",""]];
+_baseLoadout = [["rhs_weap_m249_pip_L_para","","","optic_Aco",["rhsusf_100Rnd_556x45_M855_mixed_soft_pouch",100],[],"rhsusf_acc_saw_bipod"],[],[],["SOUP_CombatUniform_G3_PMC_GREY_BLU_A",[["ACRE_PRC343",1],["ACRE_PRC152",1],["ACE_elasticBandage",4],["ACE_morphine",1],["ACE_splint",2],["ACE_tourniquet",2]]],["V_Chestrig_blk",[["rhsusf_100Rnd_556x45_M855_mixed_soft_pouch_coyote",2,100]]],["UK3CB_TKP_O_B_ASS_BLK",[]],"H_Cap_tan","",[],["ItemMap","","","ItemCompass","ItemWatch",""]];
 
 CREATE_LOADOUT(LOL(ar),_baseLoadout);
 COPY_ADDONS(LOL(ar),LOL(rif));
@@ -47,7 +47,7 @@ COPY_ADDONS(LOL(ar),LOL(rif));
 
 // Assistant AR Loadout
 
-_baseLoadout = [["hlc_rifle_bcmjack","","","",["hlc_30rnd_556x45_M_PMAG",30],[],""],[],[],["SOUP_CombatUniform_G3_PMC_GREY_BLU_A",[["ACRE_PRC343",1],["ACRE_PRC152",1],["ACE_elasticBandage",4],["ACE_morphine",1],["ACE_splint",2],["ACE_tourniquet",2],["hlc_30rnd_556x45_M_PMAG",5,30]]],["V_Chestrig_blk",[]],["UK3CB_TKP_O_B_ASS_BLK",[["rhsusf_100Rnd_556x45_M855_mixed_soft_pouch",2,100]]],"UK3CB_CHC_C_H_Can_Cap","",[],["ItemMap","","","ItemCompass","ItemWatch",""]];
+_baseLoadout = [["hlc_rifle_bcmjack","","","optic_Holosight_blk_F",["hlc_30rnd_556x45_M_PMAG",30],[],""],[],[],["SOUP_CombatUniform_G3_PMC_GREY_BLU_A",[["ACRE_PRC343",1],["ACRE_PRC152",1],["ACE_elasticBandage",4],["ACE_morphine",1],["ACE_splint",2],["ACE_tourniquet",2],["hlc_30rnd_556x45_M_PMAG",5,30]]],["V_Chestrig_blk",[]],["UK3CB_TKP_O_B_ASS_BLK",[["rhsusf_100Rnd_556x45_M855_mixed_soft_pouch",2,100]]],"UK3CB_CHC_C_H_Can_Cap","",[],["ItemMap","","","ItemCompass","ItemWatch",""]];
 
 CREATE_LOADOUT(LOL(aar),_baseLoadout);
 COPY_ADDONS(LOL(aar),LOL(rif));
@@ -55,7 +55,7 @@ COPY_ADDONS(LOL(aar),LOL(rif));
 
 // Light anti-tank Loadout
 
-_baseLoadout =[["hlc_rifle_bcmjack","","","",["hlc_30rnd_556x45_M_PMAG",30],[],""],["rhs_weap_m72a7","","","",[],[],""],[],["SOUP_CombatUniform_G3_PMC_GREY_BLU_A",[["ACRE_PRC343",1],["ACRE_PRC152",1],["ACE_elasticBandage",4],["ACE_morphine",1],["ACE_splint",2],["ACE_tourniquet",2],["hlc_30rnd_556x45_M_PMAG",5,30]]],["V_Chestrig_blk",[]],["UK3CB_TKP_O_B_ASS_BLK",[]],"H_Cap_grn","",[],["ItemMap","","","ItemCompass","ItemWatch",""]];
+_baseLoadout =[["hlc_rifle_bcmjack","","","optic_Holosight_blk_F",["hlc_30rnd_556x45_M_PMAG",30],[],""],["rhs_weap_m72a7","","","",[],[],""],[],["SOUP_CombatUniform_G3_PMC_GREY_BLU_A",[["ACRE_PRC343",1],["ACRE_PRC152",1],["ACE_elasticBandage",4],["ACE_morphine",1],["ACE_splint",2],["ACE_tourniquet",2],["hlc_30rnd_556x45_M_PMAG",5,30]]],["V_Chestrig_blk",[]],["UK3CB_TKP_O_B_ASS_BLK",[]],"H_Cap_grn","",[],["ItemMap","","","ItemCompass","ItemWatch",""]];
 
 CREATE_LOADOUT(LOL(lat),_baseLoadout);
 COPY_ADDONS(LOL(lat),LOL(rif));
