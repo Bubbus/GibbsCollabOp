@@ -7,6 +7,7 @@ BEGIN_LOADOUTS;
 
 
 #include "factions\opfor_bub.sqf"
+#include "factions\opfor_gib.sqf"
 
 
 // Default loadout.
