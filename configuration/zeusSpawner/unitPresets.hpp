@@ -190,43 +190,43 @@ class CA_ZeusUI_Units
 		class Rifleman
 		{
 			unitName = "INDFOR Rifleman";		// This is the name of the squad which will be shown in-game.
-			units[] = {"rif"};			// This is the squad which will spawn - this just spawns one rifleman.
+			units[] = {"gib_rif"};			// This is the squad which will spawn - this just spawns one rifleman.
 		};
 
 		class Fireteam_4x
 		{
 			unitName = "INDFOR Fireteam 4x";
-			units[] = {"ftl", "ar", "lat", "rif"};
+			units[] = {"gib_ftl", "gib_ar", "gib_lat", "gib_rif"};
 		};
 		
 		class Squad_6x
 		{
 			unitName = "INDFOR Squad 6x";
-			units[] = {"ftl", "ar", "aar", "lat", "rif", "mk"};	// This spawns a full 6-man fireteam. You can have as many or as few units in a squad as you want.
+			units[] = {"gib_ftl", "gib_ar", "gib_aar", "gib_lat", "gib_rif", "gib_mk"};	// This spawns a full 6-man fireteam. You can have as many or as few units in a squad as you want.
 		};
 		
 		class Section_9x
 		{
 			unitName = "INDFOR Section 9x";
-			units[] = {"ftl", "ar", "aar", "lat", "med", "mk", "rif", "rif", "rif"};
+			units[] = {"gib_ftl", "gib_ar", "gib_aar", "gib_lat", "gib_med", "gib_mk", "gib_rif", "gib_rif", "gib_rif"};
 		};
 
 		class LAT_Team
 		{
 			unitName = "INDFOR LAT Team";
-			units[] = {"rif", "lat"};
+			units[] = {"gib_rif", "gib_lat"};
 		};
 
 		class AR_Team
 		{
 			unitName = "INDFOR AR Team";
-			units[] = {"aar", "ar"};
+			units[] = {"gib_aar", "gib_ar"};
 		};
 		
 		class MK_Team
 		{
 			unitName = "INDFOR MK Team";
-			units[] = {"rif", "mk"};
+			units[] = {"gib_rif", "gib_mk"};
 		};
 	};
 
@@ -236,32 +236,55 @@ class CA_ZeusUI_Units
 		gear = "ind_f";
 		side = "resistance";
 
-		class MBT52_Kuma		// Classnames can't contain '-'
+		class LandRover_Closed
 		{
-			unitName = "MBT-52 Kuma";
-			vehicle = "I_MBT_03_cannon_F";
-			units[] = {"crew", "crew", "crew"};
+			unitName = "LandRover (Closed)";
+			vehicle = "UK3CB_I_G_LandRover_Closed";
+			units[] = {"gib_ftl", "gib_ar", "gib_aar", "gib_lat", "gib_rif", "gib_mk", "gib_rif","gib_med"};
 		};
 
-		class AFV4_Gorgon
+		class LandRover_Open
 		{
-			unitName = "AFV-4 Gorgon";
-			vehicle = "I_APC_Wheeled_03_cannon_F";
-			units[] = {"crew", "crew", "crew"};
+			unitName = "LandRover (Open)";
+			vehicle = "UK3CB_I_G_LandRover_Open";
+			units[] = {"gib_ftl", "gib_ar", "gib_aar", "gib_lat", "gib_rif", "gib_mk", "gib_rif","gib_med"};
+		};
+		
+		class LandRover_M2
+		{
+			unitName = "LandRover (M2)";
+			vehicle = "UK3CB_I_G_LandRover_M2";
+			units[] = {"gib_ftl", "gib_ar", "gib_aar", "gib_lat"};
 		};
 
-		class FV720_Mora
+		class TransportVan
 		{
-			unitName = "FV-720 Mora";
-			vehicle = "I_APC_tracked_03_cannon_F";
-			units[] = {"crew", "crew", "crew"};
+			unitName = "Transport Van";
+			vehicle = "C_Van_02_transport_F";
+			units[] = {"gib_ftl", "gib_ar", "gib_aar", "gib_lat", "gib_rif", "gib_mk", "gib_rif","gib_med"};
 		};
 
-		class Strider_HMG
+
+		class Husky_M2
 		{
-			unitName = "Strider HMG";
-			vehicle = "I_MRAP_03_hmg_F";
-			units[] = {"crew", "crew", "crew"};
+			unitName = "Husky (M2)";
+			vehicle = "UK3CB_BAF_Husky_Passenger_HMG_Sand_DDPM";
+			units[] = {"gib_ftl", "gib_ar", "gib_aar", "gib_lat", "gib_rif", "gib_mk", "gib_rif","gib_med"};
 		};
+
+		class Littlebird
+		{
+			unitName = "MH-6 Littlebird";
+			vehicle = "RHS_MELB_MH6M";
+			units[] = {"gib_pilot", "gib_pilot", "gib_ftl", "gib_ar", "gib_aar", "gib_lat", "gib_rif", "gib_mk", "gib_med"};
+		};
+
+		class Littlebird_Gunship
+		{
+			unitName = "AH-6 Littlebird";
+			vehicle = "RHS_MELB_AH6M";
+			units[] = {"gib_pilot", "gib_pilot"};
+		};
+
 	};
 };

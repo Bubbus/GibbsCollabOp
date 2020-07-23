@@ -68,6 +68,14 @@ _baseLoadout = [["rhs_weap_m14ebrri","","","optic_MRCO",["rhsusf_20Rnd_762x51_m6
 CREATE_LOADOUT(LOL(mk),_baseLoadout);
 COPY_ADDONS(LOL(mk),LOL(rif));
 
+// Pilot Loadout
+
+_baseLoadout = [["hlc_smg_mp5k_PDW","","","optic_Aco",["hlc_30Rnd_9x19_B_MP5",30],[],""],[],["hgun_Pistol_heavy_01_F","","","",["11Rnd_45ACP_Mag",11],[],""],["SOUP_CombatUniform_PMC_SAND_BLK_B",[["ACRE_PRC343",1],["ACRE_PRC152",1],["ACE_elasticBandage",4],["ACE_morphine",1],["ACE_splint",2],["ACE_tourniquet",2],["hlc_30Rnd_9x19_B_MP5",1,30]]],["V_Chestrig_blk",[["hlc_30Rnd_9x19_B_MP5",6,30],["11Rnd_45ACP_Mag",4,11],["SmokeShell",3,1]]],[],"UK3CB_H_Pilot_Helmet","rhsusf_shemagh_gogg_tan",[],["ItemMap","","","ItemCompass","ItemWatch",""]];
+
+CREATE_LOADOUT(LOL(pilot),_baseLoadout);
+COPY_ADDONS(LOL(pilot),LOL(rif));
+
+
 
 // Small crate loadout
 CREATE_CRATE(small_gib);
