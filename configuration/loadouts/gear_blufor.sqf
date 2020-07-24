@@ -15,6 +15,7 @@ CREATE_CRATE(med);
 #include "factions\germany.sqf"
 #include "factions\brittin_innit.sqf"
 #include "factions\sweden.sqf"
+#include "factions\alrayak.sqf"
 
 
 
