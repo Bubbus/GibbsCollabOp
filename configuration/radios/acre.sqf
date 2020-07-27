@@ -22,7 +22,7 @@ f_radios_settings_acre2_longRange = [];
 
 // Unit types you want to give an extra long-range radio
 // E.G: ["co", "m"] would give the CO and all medics an extra long-range radios
-f_radios_settings_acre2_extraRadios = ["sl", "ftl", "crew", "zeus", "co", "med"];
+f_radios_settings_acre2_extraRadios = ["ger_ftl", "swe_ftl", "uk_ftl", "rayak_ftl", "crew", "zeus", "ger_med", "swe_med", "uk_med", "rayak_med"];
 
 // Unit types you want to give a backpack radio
 // This backpack radio still uses the Long Range radio channel definitions below.
@@ -62,9 +62,10 @@ f_radios_settings_acre2_language_indfor = ["opf"];
 // also note these only work if f_radios_settings_acre2_disableFrequencySplit is set to false
 f_radios_settings_acre2_sr_groups_blufor =
 [
-    ["ALPHA",    ["ALPHA"]],
-    ["BRAVO",    ["BRAVO"]],
-    ["CHARLIE",    ["CHARLIE"]],
+    ["AWAL",    ["AWAL"]],
+    ["BERTA",    ["BERTA"]],
+    ["CESAR",    ["CESAR"]],
+    ["DELTA",    ["DELTA"]],
     ["COMMAND",    ["COMMAND"]]
 ];
 
@@ -73,7 +74,7 @@ f_radios_settings_acre2_sr_groups_indfor = f_radios_settings_acre2_sr_groups_blu
 
 f_radios_settings_acre2_lr_groups_blufor =
 [
-    ["GROUND",    ["ALPHA", "BRAVO", "CHARLIE", "COMMAND"]],
+    ["GROUND",    ["AWAL", "BERTA", "CESAR", "DELTA", "COMMAND"]],
 	["HOTLINE ZEUS",    ["ZEUS"]]
 ];
 
