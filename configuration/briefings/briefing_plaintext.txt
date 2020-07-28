@@ -1,0 +1,52 @@
+
+
+BRIEFING (long-form for slotting post):
+-----------------------------------
+
+It has been 17 months since the 2022 elections in Al-Rayak, and their results remain in dispute. The country has splintered into bloody civil war, with three dominant factions arising from the chaos to claim legitimacy. 
+The United Nations Operation in Al-Rayak (UNORAY) began three months ago after several suicide bombings took the single largest civilian death toll in recent history.  
+Operating alongside loyalist forces in accordance with international recognition, UN peacekeepers have transformed contested urban areas into ceasefire towns in the first steps towards de-escalation. As outlined in the UNORAY mission brief, each faction is afforded a partition of the town in exchange for peace in the common area.
+As open war rages outwith the Dayr Hafir city limits, contention stirs within as each faction goads the others to breach the ceasefire.  It's a peace that can't last, but one you must maintain.
+
+
+
+
+BRIEFING (short-form for ingame panel):
+-----------------------------------
+
+It has been 17 months since the disputed 2022 elections sparked war in Al-Rayak. The country has splintered, and three dominant factions arise from the chaos to claim legitimacy. 
+The United Nations Operation in Al-Rayak (UNORAY) began three months ago after several especially deadly suicide bombings sparked international outrage.  
+Operating alongside loyalist forces, UN peacekeepers operate ceasefire towns to de-escalate the war. Each faction is afforded a partition in exchange for peace in the common area.
+Open war rages outwith Dayr Hafir, and each faction goads the others to breach the ceasefire within.  It's a peace that can't last, but one you must maintain.
+
+
+
+
+MISSION:
+-----------------------------------
+
+- Conduct foot patrols to and around the northern and western UN positiosn in Dayr Hafir.
+- Ensure hostilities do not break out amongst the rival factions in the city.
+- Provide assistance to UN Compound Security Forces as needed.
+
+
+
+
+
+ENEMY FORCES:
+-----------------------------------
+
+The Red Shemaghs:
+Organised militia supporting an Al Rayaki theocracy.  Local members are outraged that the Dayr Hafir mosque is a part of the ###GIBFOR### partition.
+Irregular fighter clothing, ex-Soviet arms and equipment captured from ex-government installations.
+
+###GIBFOR###:
+tell me what u got gibbus
+
+
+
+FRIENDLY FORCES:
+-----------------------------------
+
+UN Peacekeeping force, composed of soldiers from the Swedish, German and British armed forces.  Due to internationally recognition, Loyalist soldiers have been incorporated as directed by UNORAY.
+Various desert camouflage uniforms and equipment.  All friendly forces wear a blue UN helmet.  All friendly vehicles painted in white UN livery.
