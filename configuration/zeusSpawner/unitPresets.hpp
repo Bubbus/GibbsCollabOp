@@ -12,227 +12,323 @@ class CA_ZeusUI_Units
 	// Category definition
 	class BLUFOR_Infantry
 	{
-		categoryName = "BLUFOR Infantry";			// This is the name of the category which you will see in-game.
+		categoryName = "UN Infantry";			// This is the name of the category which you will see in-game.
 		gear = "blu_f";					// This is the faction code as used in the F3 framework. Here, "blu_f", means the gear will be taken from the BLUFOR gearscript (aka BLUFOR).
 		side = "west";					// "west" means the units will bear allegiance to the western side (aka BLUFOR). Available options are: "west", "east", "resistance" and "civilian".
 
 		// Units definition
 		class Rifleman
 		{
-			unitName = "BLUFOR Rifleman";		// This is the name of the squad which will be shown in-game.
-			units[] = {"rif"};			// This is the squad which will spawn - this just spawns one rifleman.
+			unitName = "UN (Al-Rayak) Rifleman";		// This is the name of the squad which will be shown in-game.
+			units[] = {"rayak_rif"};			// This is the squad which will spawn - this just spawns one rifleman.
 		};
 
 		class Fireteam_4x
 		{
-			unitName = "BLUFOR Fireteam 4x";
-			units[] = {"ftl", "ar", "lat", "rif"};
+			unitName = "UN (Al-Rayak) Fireteam 4x";
+			units[] = {"rayak_ftl", "rayak_ar", "rayak_lat", "rayak_rif"};
 		};
 		
 		class Squad_6x
 		{
-			unitName = "BLUFOR Squad 6x";
-			units[] = {"ftl", "ar", "aar", "lat", "rif", "mk"};	// This spawns a full 6-man fireteam. You can have as many or as few units in a squad as you want.
+			unitName = "UN (Al-Rayak) Squad 6x";
+			units[] = {"rayak_ftl", "rayak_ar", "rayak_aar", "rayak_lat", "rayak_rif", "rayak_mk"};	// This spawns a full 6-man fireteam. You can have as many or as few units in a squad as you want.
 		};
 		
 		class Section_9x
 		{
-			unitName = "BLUFOR Section 9x";
-			units[] = {"ftl", "ar", "aar", "lat", "med", "mk", "rif", "rif", "rif"};
+			unitName = "UN (Al-Rayak) Section 9x";
+			units[] = {"rayak_ftl", "rayak_ar", "rayak_aar", "rayak_lat", "rayak_med", "rayak_mk", "rayak_rif", "rayak_rif", "rayak_rif"};
 		};
 
 		class LAT_Team
 		{
-			unitName = "BLUFOR LAT Team";
-			units[] = {"rif", "lat"};
+			unitName = "UN (Al-Rayak) LAT Team";
+			units[] = {"rayak_rif", "rayak_lat"};
 		};
 
 		class AR_Team
 		{
-			unitName = "BLUFOR AR Team";
-			units[] = {"aar", "ar"};
+			unitName = "UN (Al-Rayak) AR Team";
+			units[] = {"rayak_aar", "rayak_ar"};
 		};
 		
 		class MK_Team
 		{
-			unitName = "BLUFOR MK Team";
-			units[] = {"rif", "mk"};
+			unitName = "UN (Al-Rayak) MK Team";
+			units[] = {"rayak_rif", "rayak_mk"};
 		};
 	};
 
 	class BLUFOR_Vehicles
 	{
-		categoryName = "BLUFOR Vehicles";
+		categoryName = "UN Vehicles";
 		gear = "blu_f";
 		side = "west";
 
-		class M2A4_Slammer_UP
+
+		class BTR_70
 		{
-			unitName = "M2A4 Slammer UP";		// This is the name of the vehicle which will be shown in-game.
-			vehicle = "B_MBT_01_TUSK_F";		// This is the classname of the vehicle. You can get it by right-clicking a vehicle in 3DEN and selecting "Log > Log classes to clipboard"
-			units[] = {"crew", "crew", "crew"};		// This is the crew of the vehicle.  The first unit in the list is always the commander.
+			unitName = "UN BTR-70";
+			vehicle = "UK3CB_UN_B_BTR70";
+			units[] = {"rayak_rif", "rayak_rif", "rayak_rif", "rayak_ftl", "rayak_ar", "rayak_aar", "rayak_rif", "rayak_med"};
 		};
 
-		class AMV7_Marshall		// Classnames can't contain '-'
+		class T_72
 		{
-			unitName = "AMV-7 Marshall";
-			vehicle = "B_APC_Wheeled_01_cannon_F";
-			units[] = {"crew", "crew", "crew"};
+			unitName = "UN T-72";
+			vehicle = "UK3CB_UN_B_T72B";
+			units[] = {"rayak_rif", "rayak_rif", "rayak_rif"};
 		};
 
-		class IFV6C_Panther
+		
+		class BMP_2
 		{
-			unitName = "IFV-6C Panther";
-			vehicle = "B_APC_Tracked_01_rcws_F";
-			units[] = {"crew", "crew", "crew"};
+			unitName = "UN BMP-2K";
+			vehicle = "UK3CB_UN_B_BMP2K";
+			units[] = {"rayak_rif", "rayak_rif", "rayak_rif"};
 		};
 
-		class Hunter_HMG
+		class MI_8
 		{
-			unitName = "Hunter HMG";
-			vehicle = "B_MRAP_01_HMG_F";
-			units[] = {"crew", "crew", "crew"};
+			unitName = "UN Mi-8";
+			vehicle = "UK3CB_UN_B_Mi8AMTSh";
+			units[] = {"rayak_rif", "rayak_rif", "rayak_ftl", "rayak_ar", "rayak_aar", "rayak_rif", "rayak_med"};
+		};
+
+		class UH1_H
+		{
+			unitName = "UN UH1-H (M240)";
+			vehicle = "UK3CB_UN_B_UH1H_M240";
+			units[] = {"rayak_rif", "rayak_rif", "rayak_ftl", "rayak_ar", "rayak_aar", "rayak_rif", "rayak_med"};
+		};		
+
+		class MI_24
+		{
+			unitName = "UN Mi-24P";
+			vehicle = "UK3CB_UN_B_Mi_24P";
+			units[] = {"rayak_rif", "rayak_rif"};
+		};
+
+		class Humvee
+		{
+			unitName = "UN Humvee";
+			vehicle = "UK3CB_UN_B_M1025_Unarmed";
+			units[] = {"rayak_ftl", "rayak_ar", "rayak_aar", "rayak_rif"};
+		};
+
+		class Humvee_M2
+		{
+			unitName = "UN Humvee (M2)";
+			vehicle = "UK3CB_UN_B_M1025_M2";
+			units[] = {"rayak_ftl", "rayak_ar", "rayak_aar", "rayak_rif", "rayak_med"};
+		};
+
+		
+		class Ural
+		{
+			unitName = "UN Ural (Covered)";
+			vehicle = "UK3CB_UN_B_Ural";
+			units[] = {"rayak_ftl", "rayak_ar", "rayak_aar", "rayak_rif", "rayak_med", "rayak_ar", "rayak_aar", "rayak_rif", "rayak_mk"};
 		};
 	};
 
 	class OPFOR_Infantry
 	{
-		categoryName = "OPFOR Infantry";
+		categoryName = "BUBFOR Infantry";
 		gear = "opf_f";
 		side = "east";
 
 		// Units definition
 		class Rifleman
 		{
-			unitName = "OPFOR Rifleman";		// This is the name of the squad which will be shown in-game.
-			units[] = {"rif"};			// This is the squad which will spawn - this just spawns one rifleman.
+			unitName = "BUBFOR Rifleman";		// This is the name of the squad which will be shown in-game.
+			units[] = {"bub_rif"};			// This is the squad which will spawn - this just spawns one rifleman.
 		};
 
 		class Fireteam_4x
 		{
-			unitName = "OPFOR Fireteam 4x";
-			units[] = {"ftl", "ar", "lat", "rif"};
+			unitName = "BUBFOR Fireteam 4x";
+			units[] = {"bub_ftl", "bub_ar", "bub_lat", "bub_rif"};
 		};
 		
 		class Squad_6x
 		{
-			unitName = "OPFOR Squad 6x";
-			units[] = {"ftl", "ar", "aar", "lat", "rif", "mk"};	// This spawns a full 6-man fireteam. You can have as many or as few units in a squad as you want.
+			unitName = "BUBFOR Squad 6x";
+			units[] = {"bub_ftl", "bub_ar", "bub_aar", "bub_lat", "bub_rif", "bub_mk"};	// This spawns a full 6-man fireteam. You can have as many or as few units in a squad as you want.
 		};
 		
 		class Section_9x
 		{
-			unitName = "OPFOR Section 9x";
-			units[] = {"ftl", "ar", "aar", "lat", "med", "mk", "rif", "rif", "rif"};
+			unitName = "BUBFOR Section 9x";
+			units[] = {"bub_ftl", "bub_ar", "bub_aar", "bub_lat", "bub_med", "bub_mk", "bub_rif", "bub_rif", "bub_rif"};
 		};
 
 		class LAT_Team
 		{
-			unitName = "OPFOR LAT Team";
-			units[] = {"rif", "lat"};
+			unitName = "BUBFOR LAT Team";
+			units[] = {"bub_rif", "bub_lat"};
 		};
 
 		class AR_Team
 		{
-			unitName = "OPFOR AR Team";
-			units[] = {"aar", "ar"};
+			unitName = "BUBFOR AR Team";
+			units[] = {"bub_aar", "bub_ar"};
 		};
 		
 		class MK_Team
 		{
-			unitName = "OPFOR MK Team";
-			units[] = {"rif", "mk"};
+			unitName = "BUBFOR MK Team";
+			units[] = {"bub_rif", "bub_mk"};
 		};
 	};
 
 	class OPFOR_Vehicles
 	{
-		categoryName = "OPFOR Vehicles";
+		categoryName = "BUBFOR Vehicles";
 		gear = "opf_f";
 		side = "east";
 
-		class T100_Varsuk		// Classnames can't contain '-'
+		class T34		// Classnames can't contain '-'
 		{
-			unitName = "T-100 Varsuk";
-			vehicle = "O_MBT_02_cannon_F";
-			units[] = {"crew", "crew", "crew"};
+			unitName = "T-34";
+			vehicle = "UK3CB_TKM_O_T34";
+			units[] = {"bub_rif", "bub_rif", "bub_rif"};
 		};
 
-		class MSE3_Marid
+		class T55
 		{
-			unitName = "MSE-3 Marid";
-			vehicle = "O_APC_Wheeled_02_rcws_F";
-			units[] = {"crew", "crew", "crew"};
+			unitName = "T-55";
+			vehicle = "UK3CB_TKM_O_T55";
+			units[] = {"bub_rif", "bub_rif", "bub_rif"};
 		};
 
-		class BTRK_Kamysh
+		class BTR_40_MG
 		{
-			unitName = "BTR-K Kamysh";
-			vehicle = "O_APC_Tracked_02_cannon_F";
-			units[] = {"crew", "crew", "crew"};
+			unitName = "BTR-40 (MG)";
+			vehicle = "UK3CB_TKM_O_BTR40_MG";
+			units[] = {"bub_rif", "bub_ar", "bub_aar", "bub_ftl", "bub_med", "bub_mk"};
 		};
 
-		class Ifrit_HMG
+		class BTR_60
 		{
-			unitName = "Ifrit HMG";
-			vehicle = "O_MRAP_02_HMG_F";
-			units[] = {"crew", "crew", "crew"};
+			unitName = "BTR-60";
+			vehicle = "UK3CB_TKM_O_BTR60";
+			units[] = {"bub_rif", "bub_ar", "bub_aar", "bub_ftl", "bub_med", "bub_mk"};
+		};
+
+		class RHIB
+		{
+			unitName = "RHIB (MG)";
+			vehicle = "UK3CB_TKA_O_RHIB";
+			units[] = {"bub_rif", "bub_ar", "bub_aar", "bub_ftl", "bub_med", "bub_mk", "bub_rif", "bub_rif"};
+		};
+
+		class Zodiac
+		{
+			unitName = "Zodiac (The small boat okay)";
+			vehicle = "O_Boat_Transport_01_F ";
+			units[] = {"bub_rif", "bub_ar", "bub_aar", "bub_ftl", "bub_med"};
+		};	
+
+		class Hilux
+		{
+			unitName = "Hilux";
+			vehicle = "UK3CB_TKM_O_Hilux_Open";
+			units[] = {"bub_rif", "bub_ar", "bub_aar", "bub_ftl", "bub_med", "bub_mk"};
+		};
+
+		class Hilux_Dshkm
+		{
+			unitName = "Hilux (Dshkm)";
+			vehicle = "UK3CB_TKM_O_Hilux_Dshkm";
+			units[] = {"bub_rif", "bub_ar", "bub_aar"};
+		};
+
+		class Hilux_PKM
+		{
+			unitName = "Hilux (PKM)";
+			vehicle = "UK3CB_TKM_O_Hilux_Pkm";
+			units[] = {"bub_rif", "bub_ar", "bub_aar"};
+		};
+				
+		class Hilux_SPG
+		{
+			unitName = "Hilux (SPG)";
+			vehicle = "UK3CB_TKM_O_Hilux_Spg9";
+			units[] = {"bub_rif", "bub_ar", "bub_aar"};
+		};
+
+				
+		class Hilux_ZU23
+		{
+			unitName = "Hilux (ZU23)";
+			vehicle = "UK3CB_TKM_O_Hilux_Zu23";
+			units[] = {"bub_rif", "bub_ar", "bub_aar"};
+		};
+
+				
+		class Hilux_Rocket
+		{
+			unitName = "Hilux (Rocket)";
+			vehicle = "UK3CB_TKM_O_Hilux_Rocket_Arty";
+			units[] = {"bub_rif", "bub_ar", "bub_aar"};
 		};
 	};
 
 	class INDFOR_Infantry
 	{
-		categoryName = "INDFOR Infantry";
+		categoryName = "GIBFOR Infantry";
 		gear = "ind_f";
 		side = "resistance";
 
 		// Units definition
 		class Rifleman
 		{
-			unitName = "INDFOR Rifleman";		// This is the name of the squad which will be shown in-game.
+			unitName = "GIBFOR Rifleman";		// This is the name of the squad which will be shown in-game.
 			units[] = {"gib_rif"};			// This is the squad which will spawn - this just spawns one rifleman.
 		};
 
 		class Fireteam_4x
 		{
-			unitName = "INDFOR Fireteam 4x";
+			unitName = "GIBFOR Fireteam 4x";
 			units[] = {"gib_ftl", "gib_ar", "gib_lat", "gib_rif"};
 		};
 		
 		class Squad_6x
 		{
-			unitName = "INDFOR Squad 6x";
+			unitName = "GIBFOR Squad 6x";
 			units[] = {"gib_ftl", "gib_ar", "gib_aar", "gib_lat", "gib_rif", "gib_mk"};	// This spawns a full 6-man fireteam. You can have as many or as few units in a squad as you want.
 		};
 		
 		class Section_9x
 		{
-			unitName = "INDFOR Section 9x";
+			unitName = "GIBFOR Section 9x";
 			units[] = {"gib_ftl", "gib_ar", "gib_aar", "gib_lat", "gib_med", "gib_mk", "gib_rif", "gib_rif", "gib_rif"};
 		};
 
 		class LAT_Team
 		{
-			unitName = "INDFOR LAT Team";
+			unitName = "GIBFOR LAT Team";
 			units[] = {"gib_rif", "gib_lat"};
 		};
 
 		class AR_Team
 		{
-			unitName = "INDFOR AR Team";
+			unitName = "GIBFOR AR Team";
 			units[] = {"gib_aar", "gib_ar"};
 		};
 		
 		class MK_Team
 		{
-			unitName = "INDFOR MK Team";
+			unitName = "GIBFOR MK Team";
 			units[] = {"gib_rif", "gib_mk"};
 		};
 	};
 
 	class INDFOR_Vehicles
 	{
-		categoryName = "INDFOR Vehicles";
+		categoryName = "GIBFOR Vehicles";
 		gear = "ind_f";
 		side = "resistance";
 
@@ -256,6 +352,13 @@ class CA_ZeusUI_Units
 			vehicle = "UK3CB_I_G_LandRover_M2";
 			units[] = {"gib_ftl", "gib_ar", "gib_aar", "gib_lat"};
 		};
+				
+		class LandRover_SPG
+		{
+			unitName = "LandRover (SPG)";
+			vehicle = "UK3CB_I_G_LandRover_SPG9";
+			units[] = {"gib_ftl", "gib_ar", "gib_aar"};
+		};
 
 		class TransportVan
 		{
@@ -278,12 +381,34 @@ class CA_ZeusUI_Units
 			vehicle = "RHS_MELB_MH6M";
 			units[] = {"gib_pilot", "gib_pilot", "gib_ftl", "gib_ar", "gib_aar", "gib_lat", "gib_rif", "gib_mk", "gib_med"};
 		};
-
+		
 		class Littlebird_Gunship
 		{
 			unitName = "AH-6 Littlebird";
 			vehicle = "RHS_MELB_AH6M";
 			units[] = {"gib_pilot", "gib_pilot"};
+		};
+
+		class Huey
+		{
+			unitName = "UH1-H Huey";
+			vehicle = "UK3CB_I_G_UH1H_M240_FIA ";
+			units[] = {"gib_pilot", "gib_pilot", "gib_ftl", "gib_ar", "gib_aar", "gib_lat", "gib_rif", "gib_mk", "gib_med"};
+		};
+
+
+		class RHIB
+		{
+			unitName = "RHIB";
+			vehicle = "UK3CB_BAF_RHIB_HMG  ";
+			units[] = {"gib_ftl", "gib_ar", "gib_aar", "gib_lat", "gib_rif", "gib_mk"};
+		};
+
+		class RHIB_HMG
+		{
+			unitName = "RHIB (HMG)";
+			vehicle = "rhsgref_hidf_rhib ";
+			units[] = {"gib_ftl", "gib_ar", "gib_aar", "gib_lat", "gib_rif"};
 		};
 
 	};
