@@ -32,43 +32,9 @@
 
 _cre = player createDiaryRecord ["diary", ["Credits","
 <br/>
-*** Insert mission credits here. ***
+Bubbus and Gibbs
 <br/><br/>
 Made with F3 (http://www.ferstaberinde.com/f3/en/)
-"]];
-
-// ====================================================================================
-
-// NOTES: ADMINISTRATION
-// The code below creates the administration sub-section of notes.
-
-_adm = player createDiaryRecord ["diary", ["Administration","
-<br/>
-*** Insert information on administration and logistics here. ***
-"]];
-
-// ====================================================================================
-
-// NOTES: EXECUTION
-// The code below creates the execution sub-section of notes.
-
-_exe = player createDiaryRecord ["diary", ["Execution","
-<br/>
-COMMANDER'S INTENT
-<br/>
-*** Insert very short summary of plan here. ***
-<br/><br/>
-MOVEMENT PLAN
-<br/>
-*** Insert movement instructions here. ***
-<br/><br/>
-FIRE SUPPORT PLAN
-<br/>
-*** Insert fire support instructions here. ***
-<br/><br/>
-SPECIAL TASKS
-<br/>
-*** Insert instructions for specific units here. ***
 "]];
 
 // ====================================================================================
@@ -78,8 +44,10 @@ SPECIAL TASKS
 
 _mis = player createDiaryRecord ["diary", ["Mission","
 <br/>
-- Conduct foot patrols to and around the northern and western UN positiosn in Dayr Hafir.
+- Conduct foot patrols to and around the northern and western UN position in Dayr Hafir.
+<br/>
 - Ensure hostilities do not break out amongst the rival factions in the city.
+<br/>
 - Provide assistance to UN Compound Security Forces as needed.
 "]];
 
@@ -90,21 +58,39 @@ _mis = player createDiaryRecord ["diary", ["Mission","
 
 _sit = player createDiaryRecord ["diary", ["Situation","
 <br/>
-It has been 17 months since the 2022 Elections in Al-Rayak, and their results remain in dispute. The country has splintered into pieces, with 3 separate 
-provisional governments all claiming legitimacy. The United Nations Operation in Al-Rayak (UNORAY) began 3 months ago after the initially peaceful peaceful situation 
-turned starkly violent by way of several bloody suicide bombings. Operating out of the relatively central city of Dayr Hafir, UNORAY has managed to 
-calm the situation and now enforces a unilateral ceasefire, albeit at the cost of partitioning the city amongst the factions.
+It has been 17 months since the disputed 2022 elections sparked war in Al-Rayak. The country has splintered, and three dominant factions arise from the chaos to claim legitimacy. 
+<br/>
+The United Nations Operation in Al-Rayak (UNORAY) began three months ago after several especially deadly suicide bombings sparked international outrage.  
+<br/>
+Operating alongside loyalist forces, UN peacekeepers operate ceasefire towns to de-escalate the war. Each faction is afforded a partition in exchange for peace in the common area.
+<br/>
+Open war rages outwith Dayr Hafir, and each faction goads the others to breach the ceasefire within.  It's a peace that can't last, but one you must maintain.
 <br/><br/>
-Something about UN favouritism toward the local Rayak boys, something controversy, something
-<br/><br/>
+<font size='18'>ENEMY FORCES</font>
+<br/>
+The Red Shemaghs:
+<br/>
+Organised militia supporting an Al Rayaki theocracy.  Local members are outraged that the Dayr Hafir mosque is a part of the Prank Protect partition.
+<br/>
+Irregular fighter clothing, ex-Soviet arms and equipment captured from ex-government installations.
+<br/>
 
-ENEMY FORCES
 <br/>
-*** Insert information about enemy forces here.***
+Prank Protect LLC:
+<br/>
+Formed out of the Security Division of the renowned media company Earring Pranks Studios, Prank Protect is a joint venture between the studio
+<br/>
+and the American government. Prank Protect has been contracted by the United Al-Rayak Oil Company and an anonymous  benefactor to protect their preferred 
+<br/>
+government against religious & democratic fanatics alike. Expect informal PMC uniforms and modern Western armaments. There are numerous reports of Prank Protect 
+<br/>
+operating high-end American military hardware, but these claims are vigourously denied by Prank Protect and the US government.
 <br/><br/>
-FRIENDLY FORCES
+<font size='18'>FRIENDLY FORCES</font>
 <br/>
-*** Insert information about friendly forces here.***
+UN Peacekeeping force, composed of soldiers from the Swedish, German and British armed forces.  Due to international recognition, Loyalist soldiers have been incorporated as directed by UNORAY.
+<br/>
+Various desert camouflage uniforms and equipment.  All friendly forces wear a blue UN helmet.  All friendly vehicles painted in white UN livery.
 "]];
 
 // ====================================================================================
