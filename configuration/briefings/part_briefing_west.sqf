@@ -78,7 +78,9 @@ SPECIAL TASKS
 
 _mis = player createDiaryRecord ["diary", ["Mission","
 <br/>
-*** Insert the mission here. ***
+- Conduct foot patrols to and around the northern and western UN positiosn in Dayr Hafir.
+- Ensure hostilities do not break out amongst the rival factions in the city.
+- Provide assistance to UN Compound Security Forces as needed.
 "]];
 
 // ====================================================================================
@@ -88,8 +90,14 @@ _mis = player createDiaryRecord ["diary", ["Mission","
 
 _sit = player createDiaryRecord ["diary", ["Situation","
 <br/>
-*** Insert general information about the situation here.***
+It has been 17 months since the 2022 Elections in Al-Rayak, and their results remain in dispute. The country has splintered into pieces, with 3 separate 
+provisional governments all claiming legitimacy. The United Nations Operation in Al-Rayak (UNORAY) began 3 months ago after the initially peaceful peaceful situation 
+turned starkly violent by way of several bloody suicide bombings. Operating out of the relatively central city of Dayr Hafir, UNORAY has managed to 
+calm the situation and now enforces a unilateral ceasefire, albeit at the cost of partitioning the city amongst the factions.
 <br/><br/>
+Something about UN favouritism toward the local Rayak boys, something controversy, something
+<br/><br/>
+
 ENEMY FORCES
 <br/>
 *** Insert information about enemy forces here.***

@@ -29,7 +29,7 @@ class Header
 
 onLoadName = "Operation UNORAY";
 onLoadMission = "Stuck in the middle with you.";
-author = "Gibbs + Bubbus";
+author = "Gibbs + Bubbus = ???";
 loadScreen = "ca_logo_large.jpg";
 
 
