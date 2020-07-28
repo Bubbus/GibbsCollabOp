@@ -37,16 +37,19 @@ ENEMY FORCES:
 -----------------------------------
 
 The Red Shemaghs:
-Organised militia supporting an Al Rayaki theocracy.  Local members are outraged that the Dayr Hafir mosque is a part of the ###GIBFOR### partition.
+Organised militia supporting an Al Rayaki theocracy.  Local members are outraged that the Dayr Hafir mosque is a part of the Prank Protect partition.
 Irregular fighter clothing, ex-Soviet arms and equipment captured from ex-government installations.
 
-###GIBFOR###:
-tell me what u got gibbus
+Prank Protect LLC:
+Formed out of the Security Division of the renowned media company Earring Pranks Studios, Prank Protect is a joint venture between the studio
+and the American government. Prank Protect has been contracted by the United Al-Rayak Oil Company and an anonymous  benefactor to protect their preferred 
+government against religious & democratic fanatics alike. Expect informal PMC uniforms and modern Western armaments. There are numerous reports of Prank Protect 
+operating high-end American military hardware, but these claims are vigourously denied by Prank Protect and the US government.
 
 
 
 FRIENDLY FORCES:
 -----------------------------------
 
-UN Peacekeeping force, composed of soldiers from the Swedish, German and British armed forces.  Due to internationally recognition, Loyalist soldiers have been incorporated as directed by UNORAY.
+UN Peacekeeping force, composed of soldiers from the Swedish, German and British armed forces.  Due to international recognition, Loyalist soldiers have been incorporated as directed by UNORAY.
 Various desert camouflage uniforms and equipment.  All friendly forces wear a blue UN helmet.  All friendly vehicles painted in white UN livery.
