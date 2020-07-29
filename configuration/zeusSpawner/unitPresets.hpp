@@ -227,7 +227,7 @@ class CA_ZeusUI_Units
 		class Zodiac
 		{
 			unitName = "Zodiac (The small boat okay)";
-			vehicle = "O_Boat_Transport_01_F ";
+			vehicle = "O_Boat_Transport_01_F";
 			units[] = {"bub_rif", "bub_ar", "bub_aar", "bub_ftl", "bub_med"};
 		};	
 
@@ -392,7 +392,7 @@ class CA_ZeusUI_Units
 		class Huey
 		{
 			unitName = "UH1-H Huey";
-			vehicle = "UK3CB_I_G_UH1H_M240_FIA ";
+			vehicle = "UK3CB_I_G_UH1H_M240_FIA";
 			units[] = {"gib_pilot", "gib_pilot", "gib_ftl", "gib_ar", "gib_aar", "gib_lat", "gib_rif", "gib_mk", "gib_med"};
 		};
 
@@ -400,14 +400,14 @@ class CA_ZeusUI_Units
 		class RHIB
 		{
 			unitName = "RHIB";
-			vehicle = "UK3CB_BAF_RHIB_HMG  ";
+			vehicle = "UK3CB_BAF_RHIB_HMG";
 			units[] = {"gib_ftl", "gib_ar", "gib_aar", "gib_lat", "gib_rif", "gib_mk"};
 		};
 
 		class RHIB_HMG
 		{
 			unitName = "RHIB (HMG)";
-			vehicle = "rhsgref_hidf_rhib ";
+			vehicle = "rhsgref_hidf_rhib";
 			units[] = {"gib_ftl", "gib_ar", "gib_aar", "gib_lat", "gib_rif"};
 		};
 
