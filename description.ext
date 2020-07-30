@@ -280,7 +280,6 @@ class CfgFunctions
 
 
 
-
 class CfgUnitInsignia
 {
 	#include "res\insignia\defines.hpp"
@@ -419,12 +418,42 @@ class Extended_InitPost_EventHandlers
 
 #endif
 
+	class B_Pilot_F
+	{
+		class GIBFOR_Override
+		{
+			init = "['gib_pilot', (_this select 0), 'ind_f'] call f_fnc_assignGear;";
+		};
+	};
 
+	class rhsgref_hidf_helipilot
+	{
+		class GIBFOR_Override
+		{
+			init = "['gib_pilot', (_this select 0), 'ind_f'] call f_fnc_assignGear;";
+		};	
+	};
+
+	class I_G_Soldier_F
+	{
+		class GIBFOR_Override
+		{
+			init = "['gib_pilot', (_this select 0), 'ind_f'] call f_fnc_assignGear;";
+		};	
+	};
+
+	class rhsusf_army_ucp_helipilot
+	{
+		class GIBFOR_Override
+		{
+			init = "['gib_pilot', (_this select 0), 'ind_f'] call f_fnc_assignGear;";
+		};
+	};
 
 
     class CAManBase
 	{
-
+		
 #ifdef ENABLE_INVENTORY_ACTION
 
         class addInventoryAction
