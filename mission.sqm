@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=23;
+		nextID=25;
 	};
 	class Camera
 	{
-		pos[]={7629.4893,131.93573,6594.3193};
-		dir[]={-0.78760976,-0.57715833,0.21636322};
-		up[]={-0.55673409,0.81634021,0.15293154};
-		aside[]={0.26492801,1.4882535e-006,0.96446228};
+		pos[]={7590.6191,99.2052,6248.7559};
+		dir[]={-0.076338254,-0.78858757,0.61016929};
+		up[]={-0.097896591,0.61492151,0.78248757};
+		aside[]={0.99226665,4.5838533e-008,0.12414175};
 	};
 };
 binarizationWanted=0;
@@ -14736,7 +14736,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7162.7012,4.6334853,6126.3213};
-				angles[]={-0,1.599263,0};
+				angles[]={0,1.599263,0};
 			};
 			side="Empty";
 			flags=4;
@@ -14752,7 +14752,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7164.752,3.5400677,6124.9038};
-				angles[]={-0,5.7879777,0};
+				angles[]={0,5.7879777,0};
 			};
 			side="Empty";
 			flags=4;
@@ -14902,7 +14902,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7137.6182,4.5188184,6124.1206};
-				angles[]={-0,6.2200742,0};
+				angles[]={0,6.2200742,0};
 			};
 			side="Empty";
 			flags=4;
@@ -22858,7 +22858,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={7550.9033,3.2732391,6289.854};
-						angles[]={-0,1.5653756,0};
+						angles[]={0,1.5653756,0};
 					};
 					side="Empty";
 					flags=4;
@@ -22892,7 +22892,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={7582.9321,3.670512,6297.6294};
-						angles[]={-0,4.7312751,0};
+						angles[]={0,4.7312751,0};
 					};
 					side="Empty";
 					flags=4;
@@ -24186,7 +24186,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={7587.8521,3.8802738,6282.5464};
-						angles[]={-0,4.7069683,0};
+						angles[]={0,4.7069683,0};
 					};
 					side="Empty";
 					flags=4;
@@ -24384,7 +24384,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={7633.0142,4.8945637,6307.563};
-						angles[]={-0,2.3561945,-0};
+						angles[]={0,2.3561945,0};
 					};
 					side="Empty";
 					flags=4;
@@ -24758,7 +24758,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={7533.3599,3.7392755,6283.6567};
-						angles[]={-0,1.3089969,0};
+						angles[]={0,1.3089969,0};
 					};
 					side="Empty";
 					flags=4;
@@ -25394,7 +25394,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7609.9312,3.8776715,6289.3179};
-				angles[]={-0,0.81048131,0};
+				angles[]={0,0.81048131,0};
 			};
 			side="Empty";
 			flags=4;
@@ -25411,7 +25411,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7587.8232,4.1656618,6280.3311};
-				angles[]={-0,4.0852442,0};
+				angles[]={0,4.0852442,0};
 			};
 			side="Empty";
 			flags=4;
@@ -25451,7 +25451,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7529.647,4.1656618,6285.355};
-				angles[]={-0,4.9351702,0};
+				angles[]={0,4.9351702,0};
 			};
 			side="Empty";
 			flags=4;
@@ -30923,7 +30923,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={7662.2397,3.6973205,5376.2095};
-						angles[]={-0,6.0456462,6.2752819};
+						angles[]={0,6.0456462,6.2752819};
 					};
 					side="West";
 					flags=4;
@@ -34841,7 +34841,7 @@ class Mission
 					flags=6;
 					class Attributes
 					{
-						init="call{[""rif"", this] call f_fnc_assignGear;" \n "this setVariable [""Vcm_Disable"",true];" \n "this allowFleeing 0;" \n "this forceSpeed 0;" \n "this disableAI ""PATH"";}";
+						init="call{[""rif"", this] call f_fnc_assignGear;" \n "this disableAI ""MOVE"";}";
 					};
 					id=3129;
 					type="O_Soldier_F";
@@ -34918,7 +34918,7 @@ class Mission
 					side="East";
 					class Attributes
 					{
-						init="call{[""mk"", this] call f_fnc_assignGear;" \n "this setVariable [""Vcm_Disable"",true];" \n "this allowFleeing 0;" \n "this forceSpeed 0;" \n "this disableAI ""PATH"";}";
+						init="call{[""mk"", this] call f_fnc_assignGear;" \n "this disableAI ""MOVE"";}";
 					};
 					id=3130;
 					type="O_Soldier_F";
@@ -34996,7 +34996,7 @@ class Mission
 					side="East";
 					class Attributes
 					{
-						init="call{[""rif"", this] call f_fnc_assignGear;" \n "this setVariable [""Vcm_Disable"",true];" \n "this allowFleeing 0;" \n "this forceSpeed 0;" \n "this disableAI ""PATH"";}";
+						init="call{[""rif"", this] call f_fnc_assignGear;" \n "this disableAI ""MOVE"";}";
 					};
 					id=3132;
 					type="O_Soldier_F";
@@ -35075,7 +35075,7 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						init="call{[""rif"", this] call f_fnc_assignGear;" \n "this setVariable [""Vcm_Disable"",true];" \n "this allowFleeing 0;" \n "this forceSpeed 0;" \n "this disableAI ""PATH"";}";
+						init="call{[""rif"", this] call f_fnc_assignGear;" \n "this disableAI ""MOVE"";}";
 					};
 					id=3133;
 					type="O_Soldier_F";
@@ -35153,7 +35153,7 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						init="call{[""ar"", this] call f_fnc_assignGear;" \n "this setVariable [""Vcm_Disable"",true];" \n "this allowFleeing 0;" \n "this forceSpeed 0;" \n "this disableAI ""PATH"";}";
+						init="call{[""ar"", this] call f_fnc_assignGear;" \n "this disableAI ""MOVE"";}";
 					};
 					id=3134;
 					type="O_Soldier_F";
@@ -35231,7 +35231,7 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						init="call{[""ar"", this] call f_fnc_assignGear;" \n "this setVariable [""Vcm_Disable"",true];" \n "this allowFleeing 0;" \n "this forceSpeed 0;" \n "this disableAI ""PATH"";}";
+						init="call{[""ar"", this] call f_fnc_assignGear;" \n "this disableAI ""MOVE"";}";
 					};
 					id=3135;
 					type="O_Soldier_F";
@@ -35309,7 +35309,7 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						init="call{[""ar"", this] call f_fnc_assignGear;" \n "this setVariable [""Vcm_Disable"",true];" \n "this allowFleeing 0;" \n "this forceSpeed 0;" \n "this disableAI ""PATH"";}";
+						init="call{[""ar"", this] call f_fnc_assignGear;" \n "this disableAI ""MOVE"";}";
 					};
 					id=3136;
 					type="O_Soldier_F";
@@ -35386,7 +35386,7 @@ class Mission
 					side="East";
 					class Attributes
 					{
-						init="call{[""ar"", this] call f_fnc_assignGear;" \n "this setVariable [""Vcm_Disable"",true];" \n "this allowFleeing 0;" \n "this forceSpeed 0;" \n "this disableAI ""PATH"";}";
+						init="call{[""ar"", this] call f_fnc_assignGear;" \n "this disableAI ""MOVE"";}";
 					};
 					id=3137;
 					type="O_Soldier_F";
@@ -35465,7 +35465,7 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						init="call{[""rif"", this] call f_fnc_assignGear;" \n "this setVariable [""Vcm_Disable"",true];" \n "this allowFleeing 0;" \n "this forceSpeed 0;" \n "this disableAI ""PATH"";}";
+						init="call{[""rif"", this] call f_fnc_assignGear;" \n "this disableAI ""MOVE"";}";
 					};
 					id=3138;
 					type="O_Soldier_F";
@@ -35543,7 +35543,7 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						init="call{[""rif"", this] call f_fnc_assignGear;" \n "this setVariable [""Vcm_Disable"",true];" \n "this allowFleeing 0;" \n "this forceSpeed 0;" \n "this disableAI ""PATH"";}";
+						init="call{[""rif"", this] call f_fnc_assignGear;" \n "this disableAI ""MOVE"";}";
 					};
 					id=3124;
 					type="O_Soldier_F";
@@ -35621,7 +35621,7 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						init="call{[""rif"", this] call f_fnc_assignGear;" \n "this setVariable [""Vcm_Disable"",true];" \n "this allowFleeing 0;" \n "this forceSpeed 0;" \n "this disableAI ""PATH"";}";
+						init="call{[""rif"", this] call f_fnc_assignGear;" \n "this disableAI ""MOVE"";}";
 					};
 					id=3126;
 					type="O_Soldier_F";
@@ -36332,7 +36332,7 @@ class Mission
 					flags=6;
 					class Attributes
 					{
-						init="call{[""rif"", this] call f_fnc_assignGear;" \n "this setVariable [""Vcm_Disable"",true];" \n "this allowFleeing 0;" \n "this forceSpeed 0;" \n "this disableAI ""PATH"";}";
+						init="call{[""rif"", this] call f_fnc_assignGear;" \n "this disableAI ""MOVE"";}";
 					};
 					id=3182;
 					type="O_Soldier_F";
@@ -36410,7 +36410,7 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						init="call{[""rif"", this] call f_fnc_assignGear;" \n "this setVariable [""Vcm_Disable"",true];" \n "this allowFleeing 0;" \n "this forceSpeed 0;" \n "this disableAI ""PATH"";}";
+						init="call{[""rif"", this] call f_fnc_assignGear;" \n "this disableAI ""MOVE"";}";
 					};
 					id=3183;
 					type="O_Soldier_F";
@@ -36488,7 +36488,7 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						init="call{[""rif"", this] call f_fnc_assignGear;" \n "this setVariable [""Vcm_Disable"",true];" \n "this allowFleeing 0;" \n "this forceSpeed 0;" \n "this disableAI ""PATH"";}";
+						init="call{[""rif"", this] call f_fnc_assignGear;" \n "this disableAI ""MOVE"";}";
 					};
 					id=3184;
 					type="O_Soldier_F";
@@ -36566,7 +36566,7 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						init="call{[""rif"", this] call f_fnc_assignGear;" \n "this setVariable [""Vcm_Disable"",true];" \n "this allowFleeing 0;" \n "this forceSpeed 0;" \n "this disableAI ""PATH"";}";
+						init="call{[""rif"", this] call f_fnc_assignGear;" \n "this disableAI ""MOVE"";}";
 					};
 					id=3185;
 					type="O_Soldier_F";
@@ -36644,7 +36644,7 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						init="call{[""rif"", this] call f_fnc_assignGear;" \n "this setVariable [""Vcm_Disable"",true];" \n "this allowFleeing 0;" \n "this forceSpeed 0;" \n "this disableAI ""PATH"";}";
+						init="call{[""rif"", this] call f_fnc_assignGear;" \n "this disableAI ""MOVE"";}";
 					};
 					id=3188;
 					type="O_Soldier_F";
@@ -36723,7 +36723,7 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						init="call{[""rif"", this] call f_fnc_assignGear;" \n "this setVariable [""Vcm_Disable"",true];" \n "this allowFleeing 0;" \n "this forceSpeed 0;" \n "this disableAI ""PATH"";}";
+						init="call{[""rif"", this] call f_fnc_assignGear;" \n "this disableAI ""MOVE"";}";
 					};
 					id=3189;
 					type="O_Soldier_F";
@@ -36802,7 +36802,7 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						init="call{[""rif"", this] call f_fnc_assignGear;" \n "this setVariable [""Vcm_Disable"",true];" \n "this allowFleeing 0;" \n "this forceSpeed 0;" \n "this disableAI ""PATH"";}";
+						init="call{[""rif"", this] call f_fnc_assignGear;" \n "this disableAI ""MOVE"";}";
 					};
 					id=3190;
 					type="O_Soldier_F";
@@ -36880,7 +36880,7 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						init="call{[""rif"", this] call f_fnc_assignGear;" \n "this setVariable [""Vcm_Disable"",true];" \n "this allowFleeing 0;" \n "this forceSpeed 0;" \n "this disableAI ""PATH"";}";
+						init="call{[""rif"", this] call f_fnc_assignGear;" \n "this disableAI ""MOVE"";}";
 					};
 					id=3191;
 					type="O_Soldier_F";
@@ -37896,7 +37896,7 @@ class Mission
 					flags=6;
 					class Attributes
 					{
-						init="call{[""rif"", this] call f_fnc_assignGear;" \n "this setVariable [""Vcm_Disable"",true];" \n "this allowFleeing 0;" \n "this forceSpeed 0;" \n "this disableAI ""PATH"";}";
+						init="call{[""rif"", this] call f_fnc_assignGear;" \n "this disableAI ""MOVE"";}";
 					};
 					id=3257;
 					type="O_Soldier_F";
@@ -37974,7 +37974,7 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						init="call{[""rif"", this] call f_fnc_assignGear;" \n "this setVariable [""Vcm_Disable"",true];" \n "this allowFleeing 0;" \n "this forceSpeed 0;" \n "this disableAI ""PATH"";}";
+						init="call{[""rif"", this] call f_fnc_assignGear;" \n "this disableAI ""MOVE"";}";
 					};
 					id=3258;
 					type="O_Soldier_F";
@@ -38052,7 +38052,7 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						init="call{[""rif"", this] call f_fnc_assignGear;" \n "this setVariable [""Vcm_Disable"",true];" \n "this allowFleeing 0;" \n "this forceSpeed 0;" \n "this disableAI ""PATH"";}";
+						init="call{[""rif"", this] call f_fnc_assignGear;" \n "this disableAI ""MOVE"";}";
 					};
 					id=3260;
 					type="O_Soldier_F";
@@ -38130,7 +38130,7 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						init="call{[""rif"", this] call f_fnc_assignGear;" \n "this setVariable [""Vcm_Disable"",true];" \n "this allowFleeing 0;" \n "this forceSpeed 0;" \n "this disableAI ""PATH"";}";
+						init="call{[""rif"", this] call f_fnc_assignGear;" \n "this disableAI ""MOVE"";}";
 					};
 					id=3261;
 					type="O_Soldier_F";
@@ -38208,7 +38208,7 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						init="call{[""rif"", this] call f_fnc_assignGear;" \n "this setVariable [""Vcm_Disable"",true];" \n "this allowFleeing 0;" \n "this forceSpeed 0;" \n "this disableAI ""PATH"";}";
+						init="call{[""rif"", this] call f_fnc_assignGear;" \n "this disableAI ""MOVE"";}";
 					};
 					id=3262;
 					type="O_Soldier_F";
@@ -38286,7 +38286,7 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						init="call{[""ar"", this] call f_fnc_assignGear;" \n "this setVariable [""Vcm_Disable"",true];" \n "this allowFleeing 0;" \n "this forceSpeed 0;" \n "this disableAI ""PATH"";}";
+						init="call{[""ar"", this] call f_fnc_assignGear;" \n "this disableAI ""MOVE"";}";
 					};
 					id=3263;
 					type="O_Soldier_F";
@@ -38364,7 +38364,7 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						init="call{[""rif"", this] call f_fnc_assignGear;" \n "this setVariable [""Vcm_Disable"",true];" \n "this allowFleeing 0;" \n "this forceSpeed 0;" \n "this disableAI ""PATH"";}";
+						init="call{[""rif"", this] call f_fnc_assignGear;" \n "this disableAI ""MOVE"";}";
 					};
 					id=3264;
 					type="O_Soldier_F";
@@ -39040,7 +39040,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7591.6479,4.6171951,6537.3853};
-				angles[]={-0,5.4923468,0};
+				angles[]={0,5.4923468,0};
 			};
 			side="Empty";
 			flags=4;
@@ -39074,7 +39074,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7594.4321,4.3613181,6523.7329};
-				angles[]={-0,6.2777448,0};
+				angles[]={0,6.2777448,0};
 			};
 			side="Empty";
 			flags=4;
@@ -39108,7 +39108,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7584.8481,14.10587,6533.646};
-				angles[]={-0,4.2058229,0};
+				angles[]={0,4.2058229,0};
 			};
 			side="Empty";
 			flags=4;
@@ -39363,7 +39363,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7591.6484,3.8220229,6531.1758};
-				angles[]={-0,5.6668797,0};
+				angles[]={0,5.6668797,0};
 			};
 			side="Empty";
 			flags=4;
@@ -39397,7 +39397,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7578.2983,14.463561,6534.7832};
-				angles[]={-0,4.3404303,0};
+				angles[]={0,4.3404303,0};
 			};
 			side="Empty";
 			flags=4;
@@ -40198,7 +40198,7 @@ class Mission
 					flags=6;
 					class Attributes
 					{
-						init="call{[""ar"", this] call f_fnc_assignGear;" \n "this setVariable [""Vcm_Disable"",true];" \n "this allowFleeing 0;" \n "this forceSpeed 0;" \n "this disableAI ""PATH"";}";
+						init="call{[""ar"", this] call f_fnc_assignGear;" \n "this disableAI ""MOVE"";}";
 					};
 					id=3434;
 					type="O_Soldier_F";
@@ -40276,7 +40276,7 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						init="call{[""rif"", this] call f_fnc_assignGear;" \n "this setVariable [""Vcm_Disable"",true];" \n "this allowFleeing 0;" \n "this forceSpeed 0;" \n "this disableAI ""PATH"";}";
+						init="call{[""rif"", this] call f_fnc_assignGear;" \n "this disableAI ""MOVE"";}";
 					};
 					id=3435;
 					type="O_Soldier_F";
@@ -40354,7 +40354,7 @@ class Mission
 					side="East";
 					class Attributes
 					{
-						init="call{[""lat"", this] call f_fnc_assignGear;" \n "this setVariable [""Vcm_Disable"",true];" \n "this allowFleeing 0;" \n "this forceSpeed 0;" \n "this disableAI ""PATH"";}";
+						init="call{[""lat"", this] call f_fnc_assignGear;" \n "this disableAI ""MOVE"";}";
 					};
 					id=3436;
 					type="O_Soldier_F";
@@ -40433,7 +40433,7 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						init="call{[""mk"", this] call f_fnc_assignGear;" \n "this setVariable [""Vcm_Disable"",true];" \n "this allowFleeing 0;" \n "this forceSpeed 0;" \n "this disableAI ""PATH"";}";
+						init="call{[""mk"", this] call f_fnc_assignGear;" \n "this disableAI ""MOVE"";}";
 					};
 					id=3437;
 					type="O_Soldier_F";
@@ -40512,7 +40512,7 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						init="call{[""mk"", this] call f_fnc_assignGear;" \n "this setVariable [""Vcm_Disable"",true];" \n "this allowFleeing 0;" \n "this forceSpeed 0;" \n "this disableAI ""PATH"";}";
+						init="call{[""mk"", this] call f_fnc_assignGear;" \n "this disableAI ""MOVE"";}";
 					};
 					id=3438;
 					type="O_Soldier_F";
@@ -40590,7 +40590,7 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						init="call{[""ar"", this] call f_fnc_assignGear;" \n "this setVariable [""Vcm_Disable"",true];" \n "this allowFleeing 0;" \n "this forceSpeed 0;" \n "this disableAI ""PATH"";}";
+						init="call{[""ar"", this] call f_fnc_assignGear;" \n "this disableAI ""MOVE"";}";
 					};
 					id=3439;
 					type="O_Soldier_F";
@@ -42185,7 +42185,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7397.4766,16.055952,6009.6475};
-				angles[]={-0,4.7123899,-0};
+				angles[]={0,4.7123899,0};
 			};
 			side="Empty";
 			flags=4;
@@ -42202,7 +42202,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7405.8311,16.055952,6002.835};
-				angles[]={-0,1.5707964,-0};
+				angles[]={0,1.5707964,0};
 			};
 			side="Empty";
 			flags=4;
@@ -42235,7 +42235,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7397.5059,16.055952,6002.793};
-				angles[]={-0,4.7123899,-0};
+				angles[]={0,4.7123899,0};
 			};
 			side="Empty";
 			flags=4;
@@ -42554,7 +42554,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7420.8081,13.264441,6034.314};
-				angles[]={-0,3.1415932,0};
+				angles[]={0,3.1415932,0};
 			};
 			side="Empty";
 			flags=4;
@@ -42710,7 +42710,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7416.7388,3.3105643,6034.9463};
-				angles[]={-0,5.5636267e-008,0};
+				angles[]={0,5.5636267e-008,0};
 			};
 			side="Empty";
 			flags=4;
@@ -44053,7 +44053,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7446.2554,16.055952,6075.8682};
-				angles[]={-0,1.7484554e-007,0};
+				angles[]={0,1.7484554e-007,0};
 			};
 			side="Empty";
 			flags=4;
@@ -44070,7 +44070,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7440.7114,16.055952,6075.8804};
-				angles[]={-0,1.7484554e-007,0};
+				angles[]={0,1.7484554e-007,0};
 			};
 			side="Empty";
 			flags=4;
@@ -44087,7 +44087,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7446.3779,16.055952,6066.1401};
-				angles[]={-0,3.1415932,-0};
+				angles[]={0,3.1415932,0};
 			};
 			side="Empty";
 			flags=4;
@@ -44139,7 +44139,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7441.1138,16.055952,6066.1978};
-				angles[]={-0,3.1415932,-0};
+				angles[]={0,3.1415932,0};
 			};
 			side="Empty";
 			flags=4;
@@ -44343,7 +44343,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7493.2085,4.2510467,6007.7466};
-				angles[]={-0,4.712389,0};
+				angles[]={0,4.712389,0};
 			};
 			side="Empty";
 			flags=4;
@@ -44697,7 +44697,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7492.689,16.055952,6076.6206};
-				angles[]={-0,1.7484554e-007,0};
+				angles[]={0,1.7484554e-007,0};
 			};
 			side="Empty";
 			flags=4;
@@ -44714,7 +44714,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7487.3389,16.055952,6076.6182};
-				angles[]={-0,1.7484554e-007,0};
+				angles[]={0,1.7484554e-007,0};
 			};
 			side="Empty";
 			flags=4;
@@ -44731,7 +44731,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7492.7563,16.055952,6066.9297};
-				angles[]={-0,3.1415932,-0};
+				angles[]={0,3.1415932,0};
 			};
 			side="Empty";
 			flags=4;
@@ -44950,7 +44950,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7581.7964,16.055952,6076.9971};
-				angles[]={-0,1.5707964,0};
+				angles[]={0,1.5707964,0};
 			};
 			side="Empty";
 			flags=4;
@@ -44967,7 +44967,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7572.0645,16.055952,6071.6201};
-				angles[]={-0,4.712389,0};
+				angles[]={0,4.712389,0};
 			};
 			side="Empty";
 			flags=4;
@@ -44985,7 +44985,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7573.6899,16.055952,6070.3154};
-				angles[]={0,3.1415932,-0};
+				angles[]={0,3.1415932,0};
 			};
 			side="Empty";
 			flags=4;
@@ -45002,7 +45002,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7580.4702,16.055952,6078.5791};
-				angles[]={0,5.5636271e-008,-0};
+				angles[]={0,5.5636271e-008,0};
 			};
 			side="Empty";
 			flags=4;
@@ -45019,7 +45019,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7573.5513,16.055952,6078.4224};
-				angles[]={0,5.5636271e-008,-0};
+				angles[]={0,5.5636271e-008,0};
 			};
 			side="Empty";
 			flags=4;
@@ -45202,7 +45202,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7573.2104,16.04841,6035.5615};
-				angles[]={0,3.1415932,-0};
+				angles[]={0,3.1415932,0};
 			};
 			side="Empty";
 			flags=4;
@@ -45219,7 +45219,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7579.9521,16.04841,6043.7622};
-				angles[]={0,5.5636271e-008,-0};
+				angles[]={0,5.5636271e-008,0};
 			};
 			side="Empty";
 			flags=4;
@@ -45236,7 +45236,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7580.1079,16.04841,6035.4849};
-				angles[]={0,3.1415932,-0};
+				angles[]={0,3.1415932,0};
 			};
 			side="Empty";
 			flags=4;
@@ -45253,7 +45253,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7573.1294,16.04841,6043.6987};
-				angles[]={0,5.5636271e-008,-0};
+				angles[]={0,5.5636271e-008,0};
 			};
 			side="Empty";
 			flags=4;
@@ -45449,7 +45449,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7179.5674,4.8063068,6159.353};
-				angles[]={-0,2.3561947,0};
+				angles[]={0,2.3561947,0};
 			};
 			side="Empty";
 			flags=4;
@@ -45617,7 +45617,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7182.4775,7.2208371,6156.1289};
-				angles[]={-0,3.926991,0};
+				angles[]={0,3.926991,0};
 			};
 			side="Empty";
 			flags=4;
@@ -45634,7 +45634,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7183.3384,4.7993078,6155.7061};
-				angles[]={-0,0.52359873,0};
+				angles[]={0,0.52359873,0};
 			};
 			side="Empty";
 			flags=4;
@@ -45651,7 +45651,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7184.3271,4.4454355,6160.541};
-				angles[]={-0,6.0213861,0};
+				angles[]={0,6.0213861,0};
 			};
 			side="Empty";
 			flags=4;
@@ -49369,7 +49369,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7631.3999,7.0742736,5754.4702};
-				angles[]={-0,4.0160208,0};
+				angles[]={0,4.0160208,0};
 			};
 			side="Empty";
 			flags=4;
@@ -49556,7 +49556,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7632.7285,7.6044259,5756.0239};
-				angles[]={-0,2.968823,0};
+				angles[]={0,2.968823,0};
 			};
 			side="Empty";
 			flags=4;
@@ -49659,7 +49659,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7622.3716,5.1999965,5761.1904};
-				angles[]={-0,4.2778196,0};
+				angles[]={0,4.2778196,0};
 			};
 			side="Empty";
 			flags=4;
@@ -53006,7 +53006,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7168.646,4.1656618,6141.2773};
-				angles[]={-0,4.7852287,0};
+				angles[]={0,4.7852287,0};
 			};
 			side="Empty";
 			flags=4;
@@ -53612,7 +53612,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={7415.4868,10.588668,5975.3125};
-						angles[]={-0,0.12731385,0};
+						angles[]={0,0.12731385,0};
 					};
 					side="West";
 					flags=4;
@@ -54026,7 +54026,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={7421.9956,21.274677,6051.2515};
-						angles[]={-0,0.91623992,0};
+						angles[]={0,0.91623992,0};
 					};
 					side="West";
 					flags=4;
@@ -54105,7 +54105,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={7438.6377,3.274678,6001.8276};
-						angles[]={-0,3.4827504,0};
+						angles[]={0,3.4827504,0};
 					};
 					side="West";
 					flags=4;
@@ -54184,7 +54184,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={7428.853,3.274678,6079.8228};
-						angles[]={-0,5.6442652,0};
+						angles[]={0,5.6442652,0};
 					};
 					side="West";
 					flags=4;
@@ -54468,7 +54468,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7428.8594,5.4880142,6079.7964};
-				angles[]={-0,5.6442652,0};
+				angles[]={0,5.6442652,0};
 			};
 			side="West";
 			flags=4;
@@ -54834,7 +54834,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7572.1079,16.055952,6076.957};
-				angles[]={-0,4.712389,0};
+				angles[]={0,4.712389,0};
 			};
 			side="Empty";
 			flags=4;
@@ -54851,7 +54851,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7581.8262,16.055952,6071.6733};
-				angles[]={-0,1.5707964,0};
+				angles[]={0,1.5707964,0};
 			};
 			side="Empty";
 			flags=4;
@@ -54868,7 +54868,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7580.3237,16.055952,6070.2881};
-				angles[]={0,3.1415932,-0};
+				angles[]={0,3.1415932,0};
 			};
 			side="Empty";
 			flags=4;
@@ -54902,7 +54902,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7581.3999,16.04841,6042.2158};
-				angles[]={-0,1.5707964,0};
+				angles[]={0,1.5707964,0};
 			};
 			side="Empty";
 			flags=4;
@@ -54919,7 +54919,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7571.8481,16.04841,6042.0132};
-				angles[]={-0,1.5707964,0};
+				angles[]={0,1.5707964,0};
 			};
 			side="Empty";
 			flags=4;
@@ -54936,7 +54936,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7571.7373,16.04841,6036.9702};
-				angles[]={-0,1.5707964,0};
+				angles[]={0,1.5707964,0};
 			};
 			side="Empty";
 			flags=4;
@@ -54954,7 +54954,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7487.4141,16.055952,6066.9844};
-				angles[]={-0,3.1415932,-0};
+				angles[]={0,3.1415932,0};
 			};
 			side="Empty";
 			flags=4;
@@ -55187,7 +55187,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7574.7324,4.3408747,6527.52};
-				angles[]={-0,1.5653554,0};
+				angles[]={0,1.5653554,0};
 			};
 			side="Empty";
 			flags=4;
@@ -55282,7 +55282,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7173.9106,3.6925507,6141.2773};
-				angles[]={-0,4.7155099,0};
+				angles[]={0,4.7155099,0};
 			};
 			side="Empty";
 			flags=4;
@@ -56680,7 +56680,7 @@ class Mission
 			fillName="SolidBorder";
 			a=48.448238;
 			b=93.138977;
-			angle=349.36172;
+			angle=349.36169;
 			drawBorder=1;
 			id=4832;
 			atlOffset=-0.43718052;
@@ -56697,7 +56697,7 @@ class Mission
 			fillName="SolidBorder";
 			a=51.386497;
 			b=21.610332;
-			angle=338.18655;
+			angle=338.18652;
 			drawBorder=1;
 			id=4833;
 			atlOffset=0.36473083;
@@ -56846,7 +56846,7 @@ class Mission
 			fillName="DiagGrid";
 			a=12.793213;
 			b=103.52194;
-			angle=52.603603;
+			angle=52.6036;
 			id=4842;
 			atlOffset=16.388548;
 		};
@@ -56876,7 +56876,7 @@ class Mission
 			fillName="DiagGrid";
 			a=12.793213;
 			b=241.69882;
-			angle=5.5890064;
+			angle=5.5890059;
 			id=4844;
 			atlOffset=-23.033243;
 		};
@@ -56906,7 +56906,7 @@ class Mission
 			fillName="DiagGrid";
 			a=12.793;
 			b=149.27084;
-			angle=99.154602;
+			angle=99.154594;
 			id=4846;
 			atlOffset=-1.3851776;
 		};
@@ -56951,7 +56951,7 @@ class Mission
 			fillName="DiagGrid";
 			a=12.793;
 			b=183.87801;
-			angle=172.55379;
+			angle=172.55377;
 			id=4849;
 			atlOffset=-1.8414383;
 		};
@@ -56966,7 +56966,7 @@ class Mission
 			fillName="DiagGrid";
 			a=12.793;
 			b=52.464428;
-			angle=35.990242;
+			angle=35.990238;
 			id=4851;
 			atlOffset=-1.0735809;
 		};
@@ -56996,7 +56996,7 @@ class Mission
 			fillName="DiagGrid";
 			a=12.793;
 			b=87.098946;
-			angle=47.055714;
+			angle=47.05571;
 			id=4853;
 			atlOffset=-3.5900788;
 		};
@@ -57011,7 +57011,7 @@ class Mission
 			fillName="DiagGrid";
 			a=12.793;
 			b=64.96843;
-			angle=76.096123;
+			angle=76.096115;
 			id=4854;
 			atlOffset=-4.9298601;
 		};
@@ -57041,7 +57041,7 @@ class Mission
 			fillName="DiagGrid";
 			a=12.793;
 			b=168.10452;
-			angle=140.38423;
+			angle=140.38422;
 			id=4856;
 			atlOffset=1.5821109;
 		};
@@ -57071,7 +57071,7 @@ class Mission
 			fillName="DiagGrid";
 			a=12.793;
 			b=67.285622;
-			angle=46.851219;
+			angle=46.851215;
 			id=4859;
 			atlOffset=-5.7285986;
 		};
@@ -57086,7 +57086,7 @@ class Mission
 			fillName="DiagGrid";
 			a=12.793;
 			b=142.15083;
-			angle=203.51445;
+			angle=203.51443;
 			id=4860;
 			atlOffset=-1.9653964;
 		};
@@ -57101,7 +57101,7 @@ class Mission
 			fillName="DiagGrid";
 			a=12.793;
 			b=59.353897;
-			angle=179.99353;
+			angle=179.99352;
 			id=4861;
 			atlOffset=-1.0077987;
 		};
@@ -57131,7 +57131,7 @@ class Mission
 			fillName="DiagGrid";
 			a=12.793;
 			b=117.39971;
-			angle=91.146423;
+			angle=91.146416;
 			id=4863;
 			atlOffset=-1.1695968;
 		};
@@ -57199,7 +57199,7 @@ class Mission
 			fillName="DiagGrid";
 			a=12.793;
 			b=109.11854;
-			angle=164.82393;
+			angle=164.82391;
 			id=4869;
 			atlOffset=-4.9980783;
 		};
