@@ -83,7 +83,6 @@ Formed out of the Security Division of the renowned media company Earring Pranks
 and the American government. Prank Protect has been contracted by the United Al-Rayak Oil Company and an anonymous  benefactor to protect their preferred 
 <br/>
 government against religious and democratic fanatics alike. Expect informal PMC uniforms and modern Western armaments. There are numerous reports of Prank Protect 
-<br/>
 operating high-end American military hardware, but these claims are vigourously denied by Prank Protect and the US government.
 <br/><br/>
 <font size='18'>FRIENDLY FORCES</font>
