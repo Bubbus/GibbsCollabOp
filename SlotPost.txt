@@ -1,0 +1,127 @@
+United Nations Operation in Al-Rayak (UNORAY)
+
+By Bubbus & Gibbs
+
+**\[A3: Main\] United Nations Operation in Al-Rayak (UNORAY) | Stuck in the Middle With You. | SAT AUG15 1900 UTC**
+
+Get the mods through the mod downloader, [\[Swifty\]](https://www.reddit.com/r/combinedarms/comments/55eykp/repo_swifty_and_everything_you_need_to_get_started/)
+
+Make sure your mods are updated in time, and feel free to contact the mods through Discord or Reddit for help!
+
+**Recommended Reading:** [**http://ttp3.dslyecxi.com/**](http://ttp3.dslyecxi.com/)
+
+[Map of AO] PENDING
+
+**SITUATION**
+
+It has been 17 months since the 2022 elections in Al-Rayak, and their results remain in dispute. The country has splintered into bloody civil war, with three dominant factions arising from the chaos to claim legitimacy. 
+The United Nations Operation in Al-Rayak (UNORAY) began three months ago after several suicide bombings took the single largest civilian death toll in recent history.  
+Operating alongside loyalist forces in accordance with international recognition, UN peacekeepers have transformed contested urban areas into ceasefire towns in the first steps towards de-escalation. As outlined in the UNORAY mission brief, each faction is afforded a partition of the town in exchange for peace in the common area.
+As open war rages outwith the Dayr Hafir city limits, contention stirs within as each faction goads the others to breach the ceasefire.  It's a peace that can't last, but one you must maintain.
+
+
+**MISSION**
+
+* Conduct foot patrols to and around the northern and western UN positions in Dayr Hafir.
+* Ensure hostilities do not break out amongst the rival factions in the city.
+* Provide assistance to UN Compound Security Forces as needed.
+
+
+*ENEMY FORCES*
+
+The Red Shemaghs:
+Organised militia supporting an Al Rayaki theocracy.  Local members are outraged that the Dayr Hafir mosque is a part of the Prank Protect partition.
+Irregular fighter clothing, ex-Soviet arms and equipment captured from ex-government installations.
+
+Prank Protect LLC:
+Formed out of the Security Division of the renowned media company Earring Pranks Studios, Prank Protect is a joint venture between the studio
+and the American government. Prank Protect has been contracted by the United Al-Rayak Oil Company and an anonymous  benefactor to protect their preferred 
+government against religious & democratic fanatics alike. Expect informal PMC uniforms and modern Western armaments. There are numerous reports of Prank Protect 
+operating high-end American military hardware, but these claims are vigourously denied by Prank Protect and the US government.
+
+*FRIENDLY FORCES*
+
+UN Peacekeeping force, composed of soldiers from the Swedish, German and British armed forces.  Due to international recognition, Loyalist soldiers have been incorporated as directed by UNORAY.
+Various desert camouflage uniforms and equipment.  All friendly forces wear a blue UN helmet.  All friendly vehicles painted in white UN livery
+
+
+**SYSTEM NOTES**
+
+* Stanard Medical Settings (No Wound Reopening, PAKs, or Medic Bags).
+
+**Terrain:** G.O.S. Al-Rayak
+
+Respawn: ?????????? <-------------------------------------------------------- BUBBUS
+
+Radios: Standard.
+
+Slotting:
+
+Use this in your slotting comment:
+
+    IGN: (Your name)
+    SLOT: Delta 1 | Rifleman
+    Hi, I'm New! (If new) 
+
+*SLOT DESCRIPTIONS*
+
+* CO - Commander - Has command over the entire mission, responsible for creating a plan and directing units in game.
+* XO - Executive Officer - Assists CO in leading platoon in combat.
+* MED - Medic - Provides medical assistance to wounded comrades.
+* ENG - Engineer - Carries a toolkit to help repair damaged vehicles. Also responsible for rearming vehicles.
+* CLS - Combat Lifesaver - Provides immediate medical assistance to wounded comrades & assists Medics in restoring them to full fitness. Does not carry PAK, Surgical Kit, or Medic Bag.
+* SL - Squad leader - Leads a squad, reports to CO
+* FTL - Fireteam Leader - Leads a fireteam - reports to SL or CO
+* AR - Automatic Rifleman - Provides suppression fire for the squad with his support weapon.
+* AAR - Assistant Automatic Rifleman - Carries extra ammo for the AR, and guides them onto targets.
+* GREN - Grenadier - I didn't find a post to copy this from. You get a lot of grenades + a rifle-mounted grenade launcher. Someone probably already took this slot.
+* DM - Designated Marksman - I didn't find a post to copy this one from either. Someone **definitely** already took this.
+* LAT - Light Anti Tank - Carries a disposable AT weapon (RPG-26, AT4, M72, etc.)
+
+*This list is not guaranteed to be up to date! Do a quick look through the comments to make sure your slot hasn't already been claimed.*
+
+BLUFOR##
+
+&#x200B;
+
+|Callsign/Role|IGN|Equipment|
+|:-|:-|:-|
+|**1PL**||M977A4|
+|CO||M16A2 + M203|
+|XO||M16A2 + M203|
+|PL MED||M4|
+|ENG||M16A2|
+|**Ragnarok**||M1A1SA|
+|Commander||MP5A2|
+|Gunner||MP5A2|
+|Driver||MP5A2|
+|**MMG**||M113A3|
+|MMG Team Leader||M16A2 + M203|
+|MMG Gunner||M240|
+|MMG Assistant Gunner||M16A2|
+|MMG Assistant Gunner|**LOCKED**|M16A2|
+|**DSL**|||
+|SL||M16A2 + M203|
+|MED||M4 |
+|**Delta 1**||M113A3|
+|FTL||M16A2 + M203|
+|AR||M249|
+|GREN||M16A2 + M203|
+|AAR||M16A2 |
+|LAT||M4 + M136|
+|CLS||M16A2|
+|**Delta 2**||M113A3|
+|FTL||M16A2 + M203|
+|AR||M249|
+|DM||M14|
+|AAR||M16A2 |
+|LAT||M4 + M136|
+|CLS||M4|
+|**ESL--   LOCKED**|||
+|**Echo 1--   LOCKED**||M113A3|
+|**Echo 2--   LOCKED**||M113A3|
+
+
+&#x200B;
+
+Reserves: 
