@@ -86,40 +86,38 @@ BLUFOR##
 
 |Callsign/Role|IGN|Equipment|
 |:-|:-|:-|
-|**1PL**||M977A4|
-|CO||M16A2 + M203|
-|XO||M16A2 + M203|
-|PL MED||M4|
-|ENG||M16A2|
-|**Ragnarok**||M1A1SA|
-|Commander||MP5A2|
-|Gunner||MP5A2|
-|Driver||MP5A2|
-|**MMG**||M113A3|
-|MMG Team Leader||M16A2 + M203|
-|MMG Gunner||M240|
-|MMG Assistant Gunner||M16A2|
-|MMG Assistant Gunner|**LOCKED**|M16A2|
-|**DSL**|||
-|SL||M16A2 + M203|
-|MED||M4 |
-|**Delta 1**||M113A3|
-|FTL||M16A2 + M203|
+|**COMMAND**|||
+|CO||Ak5C + M203| SWE FTL
+|DC||AKS-74 GL| RAY FTL
+|PL MED||G36KV| GER MED
+|**AWAL**||| Rayak
+|FTL||AKS-74 GL|
+|AR||PKM|
+|DM||SVD|
+|AAR||AKS-74|
+|LAT||AKS-74 + RPG-7|
+|MED||AKS-74|
+|**BERTA**||| GER
+|FTL||G36VAG36 |
+|AR||MG3 |
+|DM||PSG1 |
+|AAR||G36KV  |
+|LAT||G36KV + AT-4|
+|MED||G36KV |
+|**CESAR**||| SWE
+|FTL||Ak5C + M203|
 |AR||M249|
-|GREN||M16A2 + M203|
-|AAR||M16A2 |
-|LAT||M4 + M136|
-|CLS||M16A2|
-|**Delta 2**||M113A3|
-|FTL||M16A2 + M203|
-|AR||M249|
-|DM||M14|
-|AAR||M16A2 |
-|LAT||M4 + M136|
-|CLS||M4|
-|**ESL--   LOCKED**|||
-|**Echo 1--   LOCKED**||M113A3|
-|**Echo 2--   LOCKED**||M113A3|
+|DM||PSG1|
+|AAR||Ak5D |
+|LAT||Ak5D + AT-4|
+|MED||Ak5D|
+|**DELTA**||| UK
+|FTL||L85A3 + UGL|
+|AR||L7A2|
+|DM||L129A1|
+|AAR||L85A3 |
+|LAT||L85A3 + AT-4|
+|MED||L85A3|
 
 
 &#x200B;
