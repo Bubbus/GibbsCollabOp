@@ -35,7 +35,7 @@ Irregular fighter clothing, ex-Soviet arms and equipment captured from ex-govern
 
 Prank Protect LLC:
 Formed out of the Security Division of the renowned media company Earring Pranks Studios, Prank Protect is a joint venture between the studio
-and the American government. Prank Protect has been contracted by the United Al-Rayak Oil Company and an anonymous  benefactor to protect their preferred 
+and the American government. Prank Protect has been contracted by the United Al-Rayak Oil Company and an anonymous benefactor to protect their preferred 
 government against religious & democratic fanatics alike. Expect informal PMC uniforms and modern Western armaments. There are numerous reports of Prank Protect 
 operating high-end American military hardware, but these claims are vigourously denied by Prank Protect and the US government.
 
@@ -47,7 +47,7 @@ Various desert camouflage uniforms and equipment.  All friendly forces wear a bl
 
 **SYSTEM NOTES**
 
-* Stanard Medical Settings (No Wound Reopening, PAKs, or Medic Bags).
+* Standard Medical Settings (No Wound Reopening, PAKs, or Medic Bags).
 
 **Terrain:** G.O.S. Al-Rayak
 

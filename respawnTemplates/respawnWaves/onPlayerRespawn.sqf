@@ -17,9 +17,8 @@ LOCAL_ONLY(_unit);
 
 _doRespawn =
 {
-    params ["_unit", "_corpse", "_isJip"];
-    [_unit, _corpse] spawn _applyOldLoadout;
-    [false] call ace_spectator_fnc_setSpectator;
+    params ["_unit", "_corpse", "_isJip", "_quiet"];
+    //[_unit, _corpse] spawn _applyOldLoadout;
 
     if ((_isJip and IS_TRUE(f_var_JIPTeleport)) or ((!_isJip) and IS_TRUE(f_var_RespawnTeleport))) then
     {
@@ -27,6 +26,14 @@ _doRespawn =
     };
 
     #include "..\parts\zeusAdditions_onRespawn.sqf"
+
+    [_unit, true] call f_fnc_activatePlayer;
+    f_var_playerHasBeenKilled = false;
+
+    if !(_quiet) then
+    {
+        "CA2_RespawnTitle" cutRsc ["CA2_RespawnTitle", "PLAIN", -1, false];
+    };
 
 };
 
@@ -36,7 +43,7 @@ _doRespawn =
 if (time < 30) exitWith
 {
     DEBUG_PRINT_LOG("[RespawnWaves] Time < 30, skipping respawn wave...")
-    [_unit, _corpse, false] call _doRespawn;
+    [_unit, _corpse, false, true] call _doRespawn;
 }; // Apply a grace period at mission start.
 
 
@@ -46,7 +53,6 @@ if (time < 30) exitWith
 WAIT_UNTIL_PLAYER_EXISTS();
 
 _hasBeenKilled = missionNamespace getVariable ["f_var_playerHasBeenKilled", false];
-f_var_playerHasBeenKilled = false;
 
 DEBUG_FORMAT1_LOG("[RespawnWaves] Player has been killed?: %1",_hasBeenKilled)
 
@@ -57,7 +63,7 @@ DEBUG_FORMAT1_LOG("[RespawnWaves] Player has been killed?: %1",_hasBeenKilled)
 if (!_hasBeenKilled) exitWith
 {
     DEBUG_PRINT_LOG("[RespawnWaves] Player was not killed, handling as JIP...")
-    [_unit, _corpse, true] call _doRespawn;
+    [_unit, _corpse, true, true] call _doRespawn;
 
 };
 
@@ -122,12 +128,8 @@ if (_hasBeenKilled) then
     _tpHandle = [_spawnAt] spawn _tryTeleport;
 
     waitUntil { scriptDone _tpHandle };
-    [_unit, true] call f_fnc_activatePlayer;
-    [false] call ace_spectator_fnc_setSpectator;
 
-    #include "..\parts\zeusAdditions_onRespawn.sqf"
-
-    // [_unit] call f_fnc_paradropUnit;
+    [_unit, _corpse, true, false] call _doRespawn;
 
     DEBUG_PRINT_LOG("[RespawnWaves] All done.")
 

@@ -17,5 +17,6 @@ class miscShared
     class radioAlarm{};
 	class giveUnitGodmode{};
     class applyInsignia{};
+    class formatTimeDuration{};
     class part2Transition{};
 };
